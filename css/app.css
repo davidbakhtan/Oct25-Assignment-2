@@ -1,0 +1,28 @@
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+.piano-keys {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.key {
+    width: 60px;
+    height: 200px;
+    margin: 0 5px;
+    background-color: #fff;
+    border: 1px solid #333;
+    cursor: pointer;
+}
+
+.key:active {
+    background-color: #ccc;
+}
